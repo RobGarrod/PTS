@@ -1,5 +1,19 @@
 @charset "UTF-8";
-/******* Customized Bootstrap ********/ /*!
+/******* Customized Bootstrap ********/
+/*
+PTS Colours
+Yellow: #FFF200
+Background-light: #1F1F1F
+Background-dark: black
+*/
+/*
+Template Defaults
+$primary: #F77D0A;
+$secondary: #2B2E4A;
+$light: #F4F5F8;
+$dark: #1C1E32;
+*/
+/*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.

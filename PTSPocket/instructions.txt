@@ -1,0 +1,34 @@
+Creating A Node Express Server
+
+1.
+Use the terminal to install the express packages
+
+npm install express
+
+2.
+
+To setup a basic server
+
+const express = require('express');
+const app = express();
+
+const PORT = 4001
+
+app.listen(PORT, () => {
+    console.log(`Server is listening on ${PORT}`);
+});
+
+3.
+
+To setup a basic database
+
+const sqlite3 = require('sqlite3');
+const db = new sqlite3.Database('./db.sqlite');
+
+DB Gotchas
+
+Date/Time
+- https://www.sqlitetutorial.net/sqlite-date/
+
+Node JS help
+- https://www.sqlitetutorial.net/sqlite-nodejs/
